@@ -1,0 +1,106 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:6:22-77
+application
+ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:7:5-22:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\beavi5\.android\build-cache\1c9917c4cecfbcc885c2946c8a146582872d97c1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\beavi5\.android\build-cache\2cfa4f0a4c50c176c08ead2da4322daf7e1c4fbe\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\beavi5\.android\build-cache\b540712dcc836efd5fc1a70de482e6ab05d7676b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\beavi5\.android\build-cache\294d8fb045c0378f57b70fdf1e5fac1d476dc00d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\beavi5\.android\build-cache\dd3af493e1d05204c33674cf0d4f1cd63a5c024b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\beavi5\.android\build-cache\26d0f86243bdd6180f42bd618bb7638edd312be8\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\beavi5\.android\build-cache\861fd9b735a2fe69d5f1d2c15ae59fcb8b7844a8\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\beavi5\.android\build-cache\79237698017fccd0c24d93d1db9db46892015302\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\beavi5\.android\build-cache\112f5e51df9f6587ab8c9fa2f681dbb1d060b59f\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\beavi5\.android\build-cache\a69d890484cdff596c7ada1f85b7f21ae4f302d1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\beavi5\.android\build-cache\51575a93c53f0980b2aa1de08f434732f38d651a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\beavi5\.android\build-cache\e563ca94344646441d26210b0d7217cbc9fc3df3\output\AndroidManifest.xml:26:5-20
+	android:label
+		ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:12:9-35
+	android:roundIcon
+		ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:11:9-54
+	android:allowBackup
+		ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.example.beavi5.vktest.VIEW.MainActivity
+ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:14:19-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.example.beavi5.vktest.VIEW.MsgActivity
+ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:21:9-63
+	android:name
+		ADDED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml:21:19-51
+uses-sdk
+INJECTED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\beavi5\.android\build-cache\1c9917c4cecfbcc885c2946c8a146582872d97c1\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\beavi5\.android\build-cache\2cfa4f0a4c50c176c08ead2da4322daf7e1c4fbe\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\beavi5\.android\build-cache\b540712dcc836efd5fc1a70de482e6ab05d7676b\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\beavi5\.android\build-cache\294d8fb045c0378f57b70fdf1e5fac1d476dc00d\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\beavi5\.android\build-cache\dd3af493e1d05204c33674cf0d4f1cd63a5c024b\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\beavi5\.android\build-cache\26d0f86243bdd6180f42bd618bb7638edd312be8\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\beavi5\.android\build-cache\861fd9b735a2fe69d5f1d2c15ae59fcb8b7844a8\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\beavi5\.android\build-cache\79237698017fccd0c24d93d1db9db46892015302\output\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\beavi5\.android\build-cache\112f5e51df9f6587ab8c9fa2f681dbb1d060b59f\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\beavi5\.android\build-cache\ee6832327a97a5bf1ddb281c4e915f81679c20e0\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\beavi5\.android\build-cache\a69d890484cdff596c7ada1f85b7f21ae4f302d1\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\beavi5\.android\build-cache\51575a93c53f0980b2aa1de08f434732f38d651a\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\beavi5\.android\build-cache\e563ca94344646441d26210b0d7217cbc9fc3df3\output\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\beavi5\.android\build-cache\1c9917c4cecfbcc885c2946c8a146582872d97c1\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\beavi5\AndroidStudioProjects\VKtest\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\beavi5\.android\build-cache\1c9917c4cecfbcc885c2946c8a146582872d97c1\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\beavi5\.android\build-cache\2cfa4f0a4c50c176c08ead2da4322daf7e1c4fbe\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\beavi5\.android\build-cache\b540712dcc836efd5fc1a70de482e6ab05d7676b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\beavi5\.android\build-cache\294d8fb045c0378f57b70fdf1e5fac1d476dc00d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\beavi5\.android\build-cache\dd3af493e1d05204c33674cf0d4f1cd63a5c024b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\beavi5\.android\build-cache\26d0f86243bdd6180f42bd618bb7638edd312be8\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\beavi5\.android\build-cache\861fd9b735a2fe69d5f1d2c15ae59fcb8b7844a8\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\beavi5\.android\build-cache\ee6832327a97a5bf1ddb281c4e915f81679c20e0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\beavi5\.android\build-cache\a69d890484cdff596c7ada1f85b7f21ae4f302d1\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\beavi5\.android\build-cache\51575a93c53f0980b2aa1de08f434732f38d651a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\beavi5\.android\build-cache\e563ca94344646441d26210b0d7217cbc9fc3df3\output\AndroidManifest.xml:22:5-24:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\beavi5\.android\build-cache\1c9917c4cecfbcc885c2946c8a146582872d97c1\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\beavi5\.android\build-cache\1c9917c4cecfbcc885c2946c8a146582872d97c1\output\AndroidManifest.xml:26:9-47

@@ -14,7 +14,7 @@ import java.util.List;
 public class VkApp {
     //constants for OAUTH AUTHORIZE in Vkontakte
     public static final String CALLBACK_URL = "http://oauth.vk.com/blank.html";
-    private static final String OAUTH_AUTHORIZE_URL = "https://oauth.vk.com/authorize?client_id=6188395&scope=4096&redirect_uri=http://oauth.vk.com/blank.html&display=touch&response_type=token";
+    private static final String OAUTH_AUTHORIZE_URL = "https://oauth.vk.com/authorize?client_id=6189751&scope=4100&redirect_uri=http://oauth.vk.com/blank.html&display=touch&response_type=token";
 
     private Context _context;
     private VkDialogListener _listener;

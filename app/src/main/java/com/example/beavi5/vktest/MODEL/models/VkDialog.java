@@ -94,10 +94,10 @@ public class VkDialog extends Dialog{
     private class VkWebViewClient extends WebViewClient {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
-            //Log.d(Constants.DEBUG_TAG, "Redirecting URL " + url);
+            Log.d("ERRORRRRRRRR", "Redirecting URL " + url);
 
             if (url.startsWith(VkApp.CALLBACK_URL) & ( !url.contains("error") )) {
-                //Log.d(Constants.DEBUG_TAG,"url contains callback url");
+                Log.d("ERRORRRRRRRR","url contains callback url");
 
                 mListener.onComplete(url);
                 VkDialog.this.dismiss();
@@ -109,7 +109,7 @@ public class VkDialog extends Dialog{
                 return false;
             }
             else {
-                //Log.d(Constants.DEBUG_TAG,"url not contains callback url");
+                Log.d("ERRORRRRRRRR","url not contains callback url");
                 view.loadUrl(url);
                 return true;
             }
@@ -117,7 +117,7 @@ public class VkDialog extends Dialog{
 
         @Override
         public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
-            //Log.d(Constants.DEBUG_TAG, "Page error: " + description);
+            Log.d("ERRORRRRRRRR", "Page error: " + description);
             super.onReceivedError(view, errorCode, description, failingUrl);
 
             mListener.onError(description);

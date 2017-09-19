@@ -1,6 +1,7 @@
 package com.example.beavi5.vktest.MODEL.models;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -11,6 +12,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.beavi5.vktest.R;
+import com.example.beavi5.vktest.VIEW.MainActivity;
+import com.example.beavi5.vktest.VIEW.MsgActivity;
 import com.squareup.picasso.Picasso;
 
 import java.io.IOException;
@@ -49,9 +52,12 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.FriendHolder> {
             public void onClick(View view) {
 
 
+                Intent msgIntent = new Intent(holder.itemView.getContext(), MsgActivity.class);
+                msgIntent.putExtra("uid",friendsList.get(position).getUserId());
+                msgIntent.putExtra("token",token);
+                holder.itemView.getContext().startActivity(msgIntent);
 
-
-
+/*
                     //Получаем вид с файла prompt.xml, который применим для диалогового окна:
                     LayoutInflater li = LayoutInflater.from(holder.itemView.getContext());
                     View addNewCommentView = li.inflate(R.layout.dialog_new_msg, null);
@@ -112,7 +118,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.FriendHolder> {
                     AlertDialog alertDialog =  mDialogBuilder.create();
 
                     //и отображаем его:
-                    alertDialog.show();
+                    alertDialog.show();*/
 
 
             }

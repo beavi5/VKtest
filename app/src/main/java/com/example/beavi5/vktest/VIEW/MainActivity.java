@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.webkit.CookieManager;
 import android.widget.Button;
 
 import com.example.beavi5.vktest.PRESENTER.IPresenter;
@@ -44,11 +45,11 @@ VkDialog dialog;
         presenter = new Presenter(this);
 
         setContentView(R.layout.activity_main);
-       // CookieManager cookieManager = CookieManager.getInstance();
-        //cookieManager.removeAllCookie();
+        CookieManager cookieManager = CookieManager.getInstance();
+        cookieManager.removeAllCookie();
         vkApp= new VkApp(this);
         vkApp.setListener(this);
-       // vkApp.resetAccessToken();
+        vkApp.resetAccessToken();
 
 
 recyclerView= (RecyclerView) findViewById(R.id.friendsRV);
@@ -64,6 +65,14 @@ recyclerView= (RecyclerView) findViewById(R.id.friendsRV);
         joinVKBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                if (joinVKBtn.getText()=="Выйти"){
+                    recyclerView.setAdapter(null);
+                    CookieManager cookieManager = CookieManager.getInstance();
+                    cookieManager.removeAllCookie();
+                    vkApp.resetAccessToken();
+                joinVKBtn.setText("Войти с помощью VK");
+                }   else
                 presenter.joinVK(); //
 
                // vkApp.showLoginDialog();
@@ -89,6 +98,8 @@ recyclerView= (RecyclerView) findViewById(R.id.friendsRV);
     public void onGetFriends(List<FriendModel> friendsList, String param) {
         rvAdapter = new RVAdapter(friendsList,param);
          recyclerView.setAdapter(rvAdapter);
+        joinVKBtn.setText("Выйти");
+
     }
 
     @Override
